@@ -29,6 +29,7 @@ public class QuickSort {
                 end--;
             }
 
+//            if voliation found then swap
             if(start<=end){
                 int temp = nums[start];
                 nums[start] = nums[end];
