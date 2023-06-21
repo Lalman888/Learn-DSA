@@ -9,7 +9,7 @@ public class Basic {
 
     }
 
-    private static String removeE(String str, String ans,int i ) {
+    public static String removeE(String str, String ans,int i ) {
         if(str.length()-1<i ){
             return ans;
         }
