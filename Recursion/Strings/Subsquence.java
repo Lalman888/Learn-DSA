@@ -10,6 +10,8 @@ public class Subsquence {
         System.out.println(list);
     }
 
+
+
     private static void sequence(String p,String up) {
         if(up.isEmpty()){
            if(!p.isEmpty()){
